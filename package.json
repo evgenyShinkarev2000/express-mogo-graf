@@ -7,17 +7,18 @@
   "watch": {
     "build": {
       "patterns": [
-        "./src"
+        "./src",
+        "./api"
       ],
       "extensions": "ts"
     }
   },
   "scripts": {
-    "run-server": "npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "remove-compiled": "rimraf ./dist/*",
-    "build": "npm run remove-compiled && tsc",
-    "start": "node dist/back.js"
+    "remove-compiled": "rimraf ./dist/* && rimraf ./api/*.js",
+    "compile": "npx tsc -p ./ && npx tsc -p ./api/",
+    "build": "npm run remove-compiled && npm run compile",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
