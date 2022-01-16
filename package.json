@@ -15,8 +15,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "remove-compiled": "rimraf ./dist/* && rimraf ./api/*.js",
-    "compile": "npx tsc -p ./ && npx tsc -p ./api/",
+    "remove-compiled": "rimraf ./dist/* && rimraf ./api/*",
+    "compile": "npx tsc -p ./src/ && npx tsc -p ./srcback/",
     "build": "npm run remove-compiled && npm run compile",
     "start": "node index.js"
   },

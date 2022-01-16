@@ -1,1 +1,1 @@
-{"version":3,"file":"fronExp.js","sourceRoot":"","sources":["../src/fronExp.ts"],"names":[],"mappings":";;;AAAA,MAAa,GAAG;IAIZ;QACI,IAAI,CAAC,GAAG,GAAG,CAAC,CAAC;IACjB,CAAC;CACJ;AAPD,kBAOC"}
+{"version":3,"file":"fronExp.js","sourceRoot":"","sources":["../src/fronExp.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,GAAG;IAIZ;QACI,IAAI,CAAC,GAAG,GAAG,CAAC,CAAC;IACjB,CAAC;CACJ"}

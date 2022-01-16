@@ -1,1 +1,1 @@
-{"version":3,"file":"front.js","sourceRoot":"","sources":["../src/front.ts"],"names":[],"mappings":";;AAAA,6CAAgC;AAChC,OAAO,CAAC,GAAG,CAAC,IAAI,gBAAG,EAAE,CAAC,CAAC"}
+{"version":3,"file":"front.js","sourceRoot":"","sources":["../src/front.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,GAAG,EAAC,MAAM,cAAc,CAAA;AAChC,OAAO,CAAC,GAAG,CAAC,IAAI,GAAG,EAAE,CAAC,CAAC"}
