@@ -1,2 +1,2 @@
 import {Cat} from "./fronExp.js"
-console.log(new Cat());
+// console.log(new Cat());

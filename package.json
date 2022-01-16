@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "try create fullstack app with mongo db",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "type": "module",
   "watch": {
     "build": {
